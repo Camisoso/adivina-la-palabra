@@ -3,7 +3,7 @@
 import random
 
 # Lista de palabras posibles
-palabras = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
+palabras = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo']
 
 # Función principal del juego
 def adivina_la_palabra():
@@ -59,7 +59,7 @@ def adivina_la_palabra():
         print("\nTe has quedado sin vidas. La palabra era:", palabra)
 
     # Pregunto si quiere jugar de nuevo, sino a traves del else se cierra la terminal.
-    jugar_de_nuevo = input("\n¿Quieres jugar de nuevo? (s/n): ").lower()
+    jugar_de_nuevo = input("\n¿Quieres jugar de nuevo? (si/no): ").lower()
     if jugar_de_nuevo == 's':
         adivina_la_palabra()
     else:
