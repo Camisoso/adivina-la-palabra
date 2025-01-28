@@ -1,7 +1,7 @@
 import random
 
 # Lista de palabras posibles
-palabras = ['python', 'java', 'ruby', 'javascript', 'html', 'css', 'flask', 'django']
+palabras = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
 
 # Función principal del juego
 def adivina_la_palabra():
